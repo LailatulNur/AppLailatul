@@ -1,0 +1,599 @@
+ERROR - 2022-02-14 01:45:16 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-14 01:45:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#2 E:\xampp\htdocs\app_caffe_laila\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\xampp\htdocs\app_caffe_laila\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(27): CodeIgniter\BaseModel->findAll()
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-02-14 01:45:33 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-14 01:45:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#2 E:\xampp\htdocs\app_caffe_laila\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\xampp\htdocs\app_caffe_laila\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(27): CodeIgniter\BaseModel->findAll()
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-02-14 18:15:13 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-14 18:15:13 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#2 E:\xampp\htdocs\app_caffe_laila\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\xampp\htdocs\app_caffe_laila\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(27): CodeIgniter\BaseModel->findAll()
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-02-14 18:15:26 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-14 18:15:26 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#2 E:\xampp\htdocs\app_caffe_laila\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\xampp\htdocs\app_caffe_laila\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(27): CodeIgniter\BaseModel->findAll()
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-14 20:19:35 --> Undefined variable: menus
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\PesananList.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 23, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(34): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-14 20:45:59 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 39, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->addCart()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-14 20:47:06 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 39, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->addCart()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-14 20:47:40 --> Undefined variable: getPost
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 39, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->addCart()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-14 20:47:54 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 39, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->addCart()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-14 20:48:55 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 39, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->addCart()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-14 20:52:13 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 39, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->addCart()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-14 20:52:56 --> Undefined property: App\Controllers\PesananController::$men
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 41, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->addCart()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-14 20:53:31 --> Undefined property: App\Controllers\PesananController::$men
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 41, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->addCart()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-14 20:54:14 --> Undefined property: App\Controllers\PesananController::$men
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 41, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->addCart()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-14 20:58:27 --> Undefined variable: row
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 63, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->addCart()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-14 21:01:06 --> Call to undefined method App\Controllers\PesananController::cek()
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->addCart()
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-14 21:01:34 --> Call to undefined method App\Controllers\PesananController::check()
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->addCart()
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-14 21:01:44 --> Call to undefined method App\Controllers\PesananController::check()
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->addCart()
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-14 21:02:15 --> Undefined index: $i
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 70, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(52): App\Controllers\PesananController->ced('2')
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->addCart()
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#4 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-14 21:03:06 --> Undefined index: $id
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 70, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(52): App\Controllers\PesananController->ced('2')
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->addCart()
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#4 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-14 21:03:23 --> Undefined index: $id
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 70, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(52): App\Controllers\PesananController->ced('2')
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->addCart()
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#4 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-14 21:03:52 --> Undefined index: $i
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 70, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(52): App\Controllers\PesananController->ced('2')
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->addCart()
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#4 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-14 21:04:18 --> Call to undefined method App\Controllers\PesananController::cek()
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->addCart()
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-14 21:06:36 --> Call to undefined method App\Controllers\PesananController::cek()
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->addCart()
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-14 21:08:25 --> Undefined offset: 2
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\xampp\\htdocs...', 70, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(52): App\Controllers\PesananController->ced('2')
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->addCart()
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#4 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-14 21:09:47 --> Call to undefined method App\Controllers\PesananController::cek()
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->addCart()
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-14 21:19:12 --> Call to undefined method App\Controllers\PesananController::cek()
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->addCart()
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-14 21:19:53 --> Call to undefined method App\Controllers\PesananController::Cek()
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->addCart()
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-14 21:21:15 --> Undefined index: nama_menu
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\PesananList.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 90, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(34): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-14 21:21:23 --> Undefined index: nama_menu
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\PesananList.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 90, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(34): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-14 21:24:11 --> Undefined index: nama_menu
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\PesananList.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 90, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(34): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-14 21:24:12 --> Undefined index: nama_menu
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\PesananList.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 90, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(34): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-14 21:24:13 --> Undefined index: nama_menu
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\PesananList.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 90, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(34): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-14 21:24:14 --> Undefined index: nama_menu
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\PesananList.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 90, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(34): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-14 21:24:24 --> Undefined index: nama_menu
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\PesananList.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 90, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(34): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-14 21:37:04 --> Undefined index: nama_menu
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\PesananList.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 90, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(34): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-14 21:37:05 --> Undefined index: nama_menu
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\PesananList.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 90, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(34): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-14 21:37:26 --> Undefined index: nama_menu
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\PesananList.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 90, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(34): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-14 21:38:12 --> Array to string conversion
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\PesananList.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\xampp\\htdocs...', 90, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(34): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-14 21:40:49 --> Undefined index: tanggal
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\PesananList.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 90, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(34): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-14 21:43:14 --> Undefined index: nama_pemesan
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\PesananList.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 91, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(34): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-14 21:43:35 --> Array to string conversion
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\PesananList.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\xampp\\htdocs...', 91, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(34): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-14 21:44:12 --> Array to string conversion
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\PesananList.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\xampp\\htdocs...', 91, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(34): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-14 21:45:11 --> Array to string conversion
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\PesananList.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\xampp\\htdocs...', 91, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(34): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-14 21:48:43 --> Array to string conversion
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\PesananList.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\xampp\\htdocs...', 91, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(34): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-14 21:50:37 --> Array to string conversion
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\PesananList.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\xampp\\htdocs...', 91, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(34): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-14 21:50:55 --> Array to string conversion
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\PesananList.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\xampp\\htdocs...', 91, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(34): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-14 22:12:49 --> Array to string conversion
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\PesananList.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\xampp\\htdocs...', 91, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(34): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-14 22:15:37 --> Array to string conversion
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\PesananList.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\xampp\\htdocs...', 91, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(34): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-14 22:19:38 --> Array to string conversion
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\PesananList.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\xampp\\htdocs...', 91, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(34): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-14 22:21:00 --> Undefined index: menu_id
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\PesananList.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 95, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(34): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-14 22:23:48 --> Undefined index: nama
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 46, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->addCart()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-14 22:24:39 --> Undefined index: nama
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 46, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->addCart()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-14 22:25:16 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 E:\xampp\htdocs\app_caffe_laila\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray('$datapesanan', 'insert')
+#1 E:\xampp\htdocs\app_caffe_laila\system\Model.php(625): CodeIgniter\BaseModel->insert('$datapesanan', true)
+#2 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(94): CodeIgniter\Model->insert('$datapesanan')
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->simpan()
+#4 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-14 22:28:37 --> Undefined index: user_id
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 99, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->simpan()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-14 22:31:52 --> Undefined index: total_harga
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 100, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->simpan()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-14 22:32:50 --> Undefined index: total_harga
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 100, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->simpan()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-14 22:33:27 --> Undefined index: total_harga
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 100, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->simpan()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-14 22:34:00 --> Undefined index: total_harga
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 100, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->simpan()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}

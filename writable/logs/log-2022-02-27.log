@@ -1,0 +1,279 @@
+CRITICAL - 2022-02-27 03:41:49 --> Class 'App\Controllers\UseModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\UserController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 03:42:20 --> Class 'App\Models\UserModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\UserController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 03:42:23 --> Class 'App\Models\UserModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\UserController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 03:42:24 --> Class 'App\Models\UserModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\UserController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 03:48:00 --> Class 'App\Controllers\Users' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-02-27 03:48:54 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-27 03:48:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\xampp\htdocs\app_caffe_lailatul\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\xampp\htdocs\app_caffe_lailatul\app\Controllers\UserController.php(26): CodeIgniter\BaseModel->findAll()
+#5 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#6 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-27 04:05:52 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::gerPost()
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(825): App\Controllers\UserController->create()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 04:18:01 --> Call to undefined function App\Controllers\getPost()
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(825): App\Controllers\UserController->edit('$l')
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 04:20:07 --> Call to undefined function App\Controllers\getPost()
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(825): App\Controllers\UserController->edit('$l')
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 04:21:58 --> Call to undefined function App\Controllers\getPost()
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(825): App\Controllers\UserController->edit('$l')
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 04:59:23 --> Allowed fields must be specified for model: App\Models\MenuModel
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Menu...')
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 E:\xampp\htdocs\app_caffe_lailatul\app\Controllers\MenuController.php(34): CodeIgniter\Model->insert(Array)
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(825): App\Controllers\MenuController->simpan()
+#5 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#6 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-27 05:00:10 --> You must set the database table to be used with your query.
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\Model.php(232): CodeIgniter\Model->builder()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#3 E:\xampp\htdocs\app_caffe_lailatul\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#4 E:\xampp\htdocs\app_caffe_lailatul\app\Controllers\MenuController.php(34): CodeIgniter\Model->insert(Array)
+#5 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(825): App\Controllers\MenuController->simpan()
+#6 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#7 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-27 05:28:12 --> Call to undefined function App\Controllers\getPost()
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(825): App\Controllers\MenuController->edit('$l')
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 05:39:59 --> Class 'App\Models\DetailPesananModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\DetailPesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 05:40:26 --> Class 'App\Models\DetailPesananModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\DetailPesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 05:41:33 --> Class 'App\Models\DetailPesananModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\DetailPesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 05:41:43 --> Class 'App\Models\DetailPesananModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\DetailPesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 05:49:07 --> Class 'App\Controllers\DetailPesananModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\DetailPesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 05:49:20 --> Class 'App\Controllers\DetailPesananModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\DetailPesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 05:49:21 --> Class 'App\Controllers\DetailPesananModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\DetailPesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 05:49:22 --> Class 'App\Controllers\DetailPesananModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\DetailPesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 05:49:22 --> Class 'App\Controllers\DetailPesananModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\DetailPesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 05:49:54 --> Class 'App\Controllers\DetailPesananModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\DetailPesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 05:49:55 --> Class 'App\Controllers\DetailPesananModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\DetailPesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 05:49:56 --> Class 'App\Controllers\DetailPesananModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\DetailPesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 05:49:56 --> Class 'App\Controllers\DetailPesananModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\DetailPesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 05:50:18 --> Class 'App\Controllers\DetailPesananModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\DetailPesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 05:51:02 --> Class 'App\Models\DetailPesananModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\DetailPesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 05:51:03 --> Class 'App\Models\DetailPesananModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\DetailPesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 05:51:04 --> Class 'App\Models\DetailPesananModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\DetailPesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 05:51:04 --> Class 'App\Models\DetailPesananModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\DetailPesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 05:51:04 --> Class 'App\Models\DetailPesananModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\DetailPesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 05:51:05 --> Class 'App\Models\DetailPesananModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\DetailPesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 05:51:05 --> Class 'App\Models\DetailPesananModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\DetailPesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 05:51:11 --> Class 'App\Models\DetailPesananModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\DetailPesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 05:57:30 --> Class 'App\Models\PesananModel' not found
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(802): App\Controllers\PesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-27 05:59:49 --> Undefined index: $l
+#0 E:\xampp\htdocs\app_caffe_lailatul\app\Controllers\PesananController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 72, Array)
+#1 E:\xampp\htdocs\app_caffe_lailatul\app\Controllers\PesananController.php(81): App\Controllers\PesananController->cek('$l')
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(825): App\Controllers\PesananController->hapusCart('$l')
+#3 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#7 {main}

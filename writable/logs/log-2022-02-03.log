@@ -1,0 +1,253 @@
+CRITICAL - 2022-02-03 19:35:53 --> Class 'App\Models\UserModel' not found
+#0 E:\xampp\htdocs\app_laundry_laila\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#1 E:\xampp\htdocs\app_laundry_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\xampp\htdocs\app_laundry_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_laundry_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_laundry_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-03 19:36:49 --> Class 'App\Controllers\UserModel' not found
+#0 E:\xampp\htdocs\app_laundry_laila\system\CodeIgniter.php(825): App\Controllers\MenuController->tampil()
+#1 E:\xampp\htdocs\app_laundry_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#2 E:\xampp\htdocs\app_laundry_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_laundry_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_laundry_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-03 19:36:57 --> Class 'App\Models\PesananModel' not found
+#0 E:\xampp\htdocs\app_laundry_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->tampil()
+#1 E:\xampp\htdocs\app_laundry_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#2 E:\xampp\htdocs\app_laundry_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_laundry_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_laundry_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-03 19:37:05 --> Invalid file: DetailPesananList.php
+#0 E:\xampp\htdocs\app_laundry_laila\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DetailPesananLi...')
+#1 E:\xampp\htdocs\app_laundry_laila\system\Common.php(1089): CodeIgniter\View\View->render('DetailPesananLi...', Array, true)
+#2 E:\xampp\htdocs\app_laundry_laila\app\Controllers\DetailPesananController.php(14): view('DetailPesananLi...', Array)
+#3 E:\xampp\htdocs\app_laundry_laila\system\CodeIgniter.php(825): App\Controllers\DetailPesananController->tampil()
+#4 E:\xampp\htdocs\app_laundry_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailPesananController))
+#5 E:\xampp\htdocs\app_laundry_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\app_laundry_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\xampp\htdocs\app_laundry_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-03 19:38:40 --> Class 'App\Controllers\UsersModel' not found
+#0 E:\xampp\htdocs\app_laundry_laila\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#1 E:\xampp\htdocs\app_laundry_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\xampp\htdocs\app_laundry_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_laundry_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_laundry_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-03 19:40:34 --> Class 'App\Models\UserModel' not found
+#0 E:\xampp\htdocs\app_laundry_laila\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#1 E:\xampp\htdocs\app_laundry_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\xampp\htdocs\app_laundry_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_laundry_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_laundry_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-03 19:42:13 --> Class 'App\Models\UserModel' not found
+#0 E:\xampp\htdocs\app_laundry_laila\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#1 E:\xampp\htdocs\app_laundry_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\xampp\htdocs\app_laundry_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_laundry_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_laundry_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-03 20:04:54 --> Class 'App\Models\UserModel' not found
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-03 20:05:22 --> Class 'App\Controllers\UserModels' not found
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-03 20:11:25 --> Class 'App\Models\UserModel' not found
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-03 20:11:51 --> Class 'App\Models\UserModel' not found
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-03 20:13:12 --> Class 'App\Models\UserModel' not found
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-03 20:15:42 --> Class 'App\Models\UserModel' not found
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-03 20:18:37 --> Class 'App\Controllers\UserModel' not found
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\MenuController->tampil()
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-03 20:18:46 --> Class 'App\Controllers\UserModel' not found
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\MenuController->tampil()
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-03 20:19:50 --> Class 'App\Models\MenuModel' not found
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\MenuController->tampil()
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-03 20:28:08 --> Class 'App\Controllers\MenuModels' not found
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\MenuController->tampil()
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-03 20:28:10 --> Class 'App\Controllers\MenuModels' not found
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\MenuController->tampil()
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-03 21:40:06 --> Undefined variable: duser
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\UserList.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 19, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('UserList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\UserController.php(17): view('UserList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-03 21:40:19 --> Undefined variable: duser
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\UserList.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 19, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('UserList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\UserController.php(17): view('UserList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-03 21:48:48 --> Undefined variable: duser
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\UserList.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 19, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('UserList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\UserController.php(17): view('UserList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-03 21:50:41 --> Undefined variable: duser
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\UserList.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 19, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('UserList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\UserController.php(17): view('UserList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-03 21:50:50 --> Undefined variable: duser
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\UserList.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 19, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('UserList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\UserController.php(17): view('UserList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-02-03 23:04:01 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-03 23:04:01 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\xampp\htdocs\app_caffe_laila\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\xampp\htdocs\app_caffe_laila\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\UserController.php(16): CodeIgniter\BaseModel->findAll()
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-02-03 23:27:45 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-03 23:27:46 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\xampp\htdocs\app_caffe_laila\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\xampp\htdocs\app_caffe_laila\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\MenuController.php(13): CodeIgniter\BaseModel->findAll()
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\MenuController->tampil()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-02-03 23:28:00 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-03 23:28:00 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\xampp\htdocs\app_caffe_laila\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\xampp\htdocs\app_caffe_laila\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\MenuController.php(13): CodeIgniter\BaseModel->findAll()
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\MenuController->tampil()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-02-03 23:28:12 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-03 23:28:12 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\xampp\htdocs\app_caffe_laila\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\xampp\htdocs\app_caffe_laila\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\UserController.php(16): CodeIgniter\BaseModel->findAll()
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}

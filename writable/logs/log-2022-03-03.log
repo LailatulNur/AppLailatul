@@ -1,0 +1,189 @@
+CRITICAL - 2022-03-03 07:25:16 --> CodeIgniter\View\View::main(): Failed opening required 'controllerUserData.php' (include_path='E:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-03 07:25:45 --> CodeIgniter\View\View::main(): Failed opening required 'UserController' (include_path='E:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-03 07:25:48 --> CodeIgniter\View\View::main(): Failed opening required 'UserController' (include_path='E:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-03 07:26:49 --> Undefined variable: errors
+#0 E:\xampp\htdocs\app_caffe_lailatul\app\Views\Login.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 17, Array)
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_lailatul\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 E:\xampp\htdocs\app_caffe_lailatul\app\Controllers\UserController.php(56): view('login')
+#5 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(825): App\Controllers\UserController->tlogin()
+#6 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-03 07:27:10 --> Undefined variable: data
+#0 E:\xampp\htdocs\app_caffe_lailatul\app\Views\Login.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 17, Array)
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_lailatul\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 E:\xampp\htdocs\app_caffe_lailatul\app\Controllers\UserController.php(56): view('login')
+#5 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(825): App\Controllers\UserController->tlogin()
+#6 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-03 07:27:22 --> Undefined variable: errors
+#0 E:\xampp\htdocs\app_caffe_lailatul\app\Views\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 21, Array)
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_lailatul\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 E:\xampp\htdocs\app_caffe_lailatul\app\Controllers\UserController.php(56): view('login')
+#5 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(825): App\Controllers\UserController->tlogin()
+#6 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-03 07:27:45 --> Undefined variable: showerror
+#0 E:\xampp\htdocs\app_caffe_lailatul\app\Views\Login.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 22, Array)
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_lailatul\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 E:\xampp\htdocs\app_caffe_lailatul\app\Controllers\UserController.php(56): view('login')
+#5 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(825): App\Controllers\UserController->tlogin()
+#6 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-03 07:27:57 --> Undefined variable: email
+#0 E:\xampp\htdocs\app_caffe_lailatul\app\Views\Login.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 25, Array)
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_lailatul\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 E:\xampp\htdocs\app_caffe_lailatul\app\Controllers\UserController.php(56): view('login')
+#5 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(825): App\Controllers\UserController->tlogin()
+#6 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-03 20:33:10 --> Undefined variable: data
+#0 E:\xampp\htdocs\app_caffe_lailatul\app\Controllers\PesananController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 97, Array)
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(825): App\Controllers\PesananController->simpan()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#3 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-03 20:56:07 --> Undefined index: total_harga
+#0 E:\xampp\htdocs\app_caffe_lailatul\app\Views\PesananList.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 89, Array)
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_lailatul\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_lailatul\app\Controllers\PesananController.php(36): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-03 21:07:37 --> Undefined index: total_harga
+#0 E:\xampp\htdocs\app_caffe_lailatul\app\Views\PesananList.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 87, Array)
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_lailatul\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_lailatul\app\Controllers\PesananController.php(36): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-03 22:19:01 --> Array to string conversion
+#0 E:\xampp\htdocs\app_caffe_lailatul\app\Controllers\PesananController.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\xampp\\htdocs...', 114, Array)
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(825): App\Controllers\PesananController->simpan()
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#3 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-03 22:25:23 --> Column 'user_id' cannot be null
+CRITICAL - 2022-03-03 22:25:23 --> Column 'user_id' cannot be null
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\xampp\htdocs\app_caffe_lailatul\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\app_caffe_lailatul\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\app_caffe_lailatul\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\app_caffe_lailatul\app\Controllers\PesananController.php(97): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(825): App\Controllers\PesananController->simpan()
+#9 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#10 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-03-03 22:26:02 --> Column 'user_id' cannot be null
+CRITICAL - 2022-03-03 22:26:02 --> Column 'user_id' cannot be null
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\xampp\htdocs\app_caffe_lailatul\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\xampp\htdocs\app_caffe_lailatul\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\app_caffe_lailatul\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\app_caffe_lailatul\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\app_caffe_lailatul\app\Controllers\PesananController.php(97): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(825): App\Controllers\PesananController->simpan()
+#9 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#10 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-03-03 23:55:01 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-03 23:55:01 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\xampp\htdocs\app_caffe_lailatul\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\xampp\htdocs\app_caffe_lailatul\app\Controllers\MenuController.php(22): CodeIgniter\BaseModel->findAll()
+#5 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(825): App\Controllers\MenuController->tampil()
+#6 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#7 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-03 23:55:13 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-03 23:55:13 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\xampp\htdocs\app_caffe_lailatul\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\xampp\htdocs\app_caffe_lailatul\app\Controllers\UserController.php(26): CodeIgniter\BaseModel->findAll()
+#5 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#6 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-03 23:55:22 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-03 23:55:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 E:\xampp\htdocs\app_caffe_lailatul\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\xampp\htdocs\app_caffe_lailatul\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#2 E:\xampp\htdocs\app_caffe_lailatul\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\xampp\htdocs\app_caffe_lailatul\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\xampp\htdocs\app_caffe_lailatul\app\Controllers\PesananController.php(29): CodeIgniter\BaseModel->findAll()
+#5 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(825): App\Controllers\PesananController->index()
+#6 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_lailatul\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_lailatul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_lailatul\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}

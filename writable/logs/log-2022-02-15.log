@@ -1,0 +1,172 @@
+CRITICAL - 2022-02-15 18:16:18 --> Undefined index: total_harga
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 100, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->simpan()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-15 18:49:31 --> password_hash() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', 'E:\\xampp\\htdocs...', 57, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\app\Controllers\UserController.php(57): password_hash('$2y$10$jiVwKa3L...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\UserController->edit('$l')
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-15 18:49:49 --> Call to undefined function App\Controllers\getPost()
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\MenuController->edit('$l')
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-15 18:50:24 --> Undefined index: $l
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 70, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(79): App\Controllers\PesananController->cek('$l')
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->hapusCart('$l')
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#4 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-02-15 18:52:17 --> Column 'gambar' cannot be null
+CRITICAL - 2022-02-15 18:52:17 --> Column 'gambar' cannot be null
+#0 E:\xampp\htdocs\app_caffe_laila\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\xampp\htdocs\app_caffe_laila\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\app_caffe_laila\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\app_caffe_laila\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\app_caffe_laila\app\Controllers\MenuController.php(35): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\MenuController->simpan()
+#9 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#10 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-02-15 18:53:27 --> Undefined index: total_harga
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 100, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->simpan()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-15 18:58:12 --> Undefined property: App\Controllers\PesananController::$pesanandetail
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 103, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->simpan()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-15 19:02:00 --> Class 'App\Controllers\DetailPesananModel' not found
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(802): App\Controllers\PesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-15 19:02:03 --> Class 'App\Controllers\DetailPesananModel' not found
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(802): App\Controllers\PesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-15 19:11:15 --> Class 'App\Controllers\PesananDetailModel' not found
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(802): App\Controllers\PesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-15 19:11:17 --> Class 'App\Controllers\PesananDetailModel' not found
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(802): App\Controllers\PesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-15 19:11:24 --> Class 'App\Controllers\PesananDetailModel' not found
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(802): App\Controllers\PesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-15 19:13:31 --> Class 'App\Controllers\DetailPesananModel' not found
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(802): App\Controllers\PesananController->__construct()
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-15 19:14:57 --> Undefined variable: row
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 106, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->simpan()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-15 19:22:54 --> password_hash() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', 'E:\\xampp\\htdocs...', 57, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\app\Controllers\UserController.php(57): password_hash('$2y$10$to2l3nV6...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\UserController->edit('$l')
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-02-15 19:35:37 --> Column 'gambar' cannot be null
+CRITICAL - 2022-02-15 19:35:37 --> Column 'gambar' cannot be null
+#0 E:\xampp\htdocs\app_caffe_laila\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\xampp\htdocs\app_caffe_laila\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\app_caffe_laila\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\app_caffe_laila\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\app_caffe_laila\app\Controllers\MenuController.php(35): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\MenuController->simpan()
+#9 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#10 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-02-15 19:36:39 --> Column 'gambar' cannot be null
+CRITICAL - 2022-02-15 19:36:39 --> Column 'gambar' cannot be null
+#0 E:\xampp\htdocs\app_caffe_laila\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\xampp\htdocs\app_caffe_laila\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\app_caffe_laila\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\app_caffe_laila\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\app_caffe_laila\app\Controllers\MenuController.php(35): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\MenuController->simpan()
+#9 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#10 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-02-15 19:36:46 --> Column 'gambar' cannot be null
+CRITICAL - 2022-02-15 19:36:46 --> Column 'gambar' cannot be null
+#0 E:\xampp\htdocs\app_caffe_laila\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\xampp\htdocs\app_caffe_laila\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\xampp\htdocs\app_caffe_laila\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\app_caffe_laila\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\app_caffe_laila\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\app_caffe_laila\app\Controllers\MenuController.php(35): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\MenuController->simpan()
+#9 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#10 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#13 {main}

@@ -1,0 +1,185 @@
+CRITICAL - 2022-02-07 19:35:28 --> Undefined property: App\Controllers\UserController::$reuest
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\UserController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 24, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\UserController->create()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-07 19:36:16 --> Undefined property: App\Controllers\UserController::$UserModel
+#0 E:\xampp\htdocs\app_caffe_laila\app\Controllers\UserController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 29, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\UserController->create()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-07 19:36:52 --> Undefined index: user_id
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\UserList.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 30, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('UserList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\UserController.php(17): view('UserList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-07 21:08:53 --> password_hash() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', 'E:\\xampp\\htdocs...', 51, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\app\Controllers\UserController.php(51): password_hash('lailatulnur2904')
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\UserController->edit('1')
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-07 21:11:12 --> password_hash() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', 'E:\\xampp\\htdocs...', 50, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\app\Controllers\UserController.php(50): password_hash('lailatulnur2904')
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\UserController->edit('1')
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-07 21:11:42 --> password_hash() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', 'E:\\xampp\\htdocs...', 50, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\app\Controllers\UserController.php(50): password_hash('lailatulnur2904')
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\UserController->edit('1')
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-07 21:17:36 --> password_hash() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', 'E:\\xampp\\htdocs...', 50, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\app\Controllers\UserController.php(50): password_hash('lailatulnur2904')
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\UserController->edit('1')
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-07 21:24:51 --> Class 'App\Controllers\UserModel' not found
+#0 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(802): App\Controllers\MenuController->__construct()
+#1 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-07 21:26:27 --> Undefined variable: dmenu
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\MenuList.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 18, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('MenuList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\MenuController.php(17): view('MenuList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\MenuController->tampil()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-07 21:28:53 --> Undefined variable: dpesanan
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\PesananList.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 18, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('PesananList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\PesananController.php(17): view('PesananList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\PesananController->tampil()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-07 21:32:20 --> Undefined variable: dmenu
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\MenuList.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 18, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('MenuList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\MenuController.php(17): view('MenuList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\MenuController->tampil()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-07 21:39:15 --> Undefined variable: ddetailpesanan
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\DetailPesananList.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 17, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('DetailPesananLi...', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\DetailPesananController.php(17): view('DetailPesananLi...', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\DetailPesananController->tampil()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailPesananController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-07 21:40:20 --> password_hash() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', 'E:\\xampp\\htdocs...', 50, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\app\Controllers\UserController.php(50): password_hash('lailatulnur2904')
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\UserController->edit('$l')
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-07 21:41:00 --> password_hash() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', 'E:\\xampp\\htdocs...', 50, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\app\Controllers\UserController.php(50): password_hash('lailatulnur2904')
+#2 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\UserController->edit('1')
+#3 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-07 21:42:50 --> Undefined variable: dmenu
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\MenuList.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 18, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('MenuList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\MenuController.php(17): view('MenuList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\MenuController->tampil()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-07 21:42:52 --> Undefined variable: dmenu
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\MenuList.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 18, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('MenuList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\MenuController.php(17): view('MenuList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\MenuController->tampil()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-07 21:42:54 --> Undefined variable: dmenu
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\MenuList.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 18, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('MenuList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\MenuController.php(17): view('MenuList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\MenuController->tampil()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-07 21:43:01 --> Undefined variable: dmenu
+#0 E:\xampp\htdocs\app_caffe_laila\app\Views\MenuList.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 18, Array)
+#1 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\app_caffe_laila\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\app_caffe_laila\system\Common.php(1089): CodeIgniter\View\View->render('MenuList', Array, true)
+#4 E:\xampp\htdocs\app_caffe_laila\app\Controllers\MenuController.php(17): view('MenuList', Array)
+#5 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(825): App\Controllers\MenuController->tampil()
+#6 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#7 E:\xampp\htdocs\app_caffe_laila\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\app_caffe_laila\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\app_caffe_laila\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
